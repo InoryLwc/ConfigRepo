@@ -1,1 +1,11 @@
-Poinory
+# 内容：一下自定义的直连列表
+# 时间：2020-04-16
+
+# 极游
+USER-AGENT,jiyou.*
+DOMAIN-SUFFIX,jiyou.cloud
+DOMAIN-SUFFIX,jiyou.world
+
+# CuteCloud
+USER-AGENT,cutecloud.*
+DOMAIN-SUFFIX,cutecloud.info

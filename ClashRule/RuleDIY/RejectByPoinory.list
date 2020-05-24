@@ -1,1 +1,12 @@
-Poinory
+# 内容：一下自定义的直连列表
+# 时间：2020-04-16
+
+# Pornhub
+USER-AGENT,pornhub.*
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,cn.pornhub.com
+DOMAIN-SUFFIX,*.pornhub.com
+
+# Pornhub
+USER-AGENT,hanime.*
+DOMAIN-SUFFIX,hanime.tv

@@ -1,0 +1,106 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;acl4SSR规则
+
+;设置规则标志位
+surge_ruleset=直连国内,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Special.list
+;特殊放前面
+surge_ruleset=广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+surge_ruleset=广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+surge_ruleset=广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+surge_ruleset=广告拦截,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list
+surge_ruleset=广告拦截,https://raw.githubusercontent.com/InoryLwc/ConfigRepo/master/ClashRule/RuleDIY/RejectByPoinory.list
+;拦截广告、应用净化、运营商劫持
+surge_ruleset=电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+;surge_ruleset=微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+surge_ruleset=微软服务,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Microsoft.list
+surge_ruleset=Steam,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Steam.list
+surge_ruleset=国外媒体,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
+surge_ruleset=Pixiv,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pixiv.list
+;特殊域名对待
+surge_ruleset=直连国内,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+surge_ruleset=直连国内,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+surge_ruleset=直连国内,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+surge_ruleset=直连国内,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+surge_ruleset=直连国内,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+surge_ruleset=直连国内,[]GEOIP,CN
+;直连不代理
+surge_ruleset=GFW节点,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+surge_ruleset=其他连接,[]FINAL
+;兜底的 GFW 和 FINAL，前者，包含所有被墙的，后者包含所有国外的
+;设置规则标志位
+
+;设置分组标志位
+
+;个人代理合并
+custom_proxy_group=铂金`select`[]自动测试`[]阿里巴巴 J`(<-)
+custom_proxy_group=阿里巴巴 J`select`[]自动测试-阿里`^🇺🇸 美国(A|B)$
+;个人代理合并
+
+;GFW节点(调用型)
+custom_proxy_group=GFW节点`select`[]铂金`[]阿里巴巴 J`[]自动测试`[]自动测试-阿里`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`[]DIRECT`[]REJECT`.*
+;GFW节点(调用型)
+
+;其他 - 一般是国外连接
+custom_proxy_group=其他连接`select`[]铂金`[]阿里巴巴 J`[]GFW节点`[]自动测试`[]自动测试-阿里`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`[]DIRECT`[]REJECT`.*
+;其他 - 一般是国外连接
+
+;国外媒体
+custom_proxy_group=国外媒体`select`[]铂金`[]阿里巴巴 J`[]GFW节点`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`^🇺🇸 美国(A|B)$`[]DIRECT`[]REJECT
+;国外媒体
+
+;国内直连
+custom_proxy_group=直连国内`select`[]DIRECT`[]自动测试`[]自动测试-阿里`[]铂金`[]阿里巴巴 J`[]GFW节点`[]REJECT
+;国内直连
+
+;电报服务
+custom_proxy_group=电报消息`select`[]自动测试`[]自动测试-阿里`[]铂金`[]阿里巴巴 J`[]GFW节点`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`[]DIRECT`.*`[]REJECT
+;电报服务
+
+;微软服务
+custom_proxy_group=微软服务`select`[]DIRECT`[]GFW节点`[]自动测试`[]自动测试-阿里`[]铂金`[]阿里巴巴 J`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`[]REJECT
+;微软服务
+
+;Steam服务
+custom_proxy_group=Steam`select`[]DIRECT`[]GFW节点`[]自动测试`[]自动测试-阿里`[]铂金`[]阿里巴巴 J`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`.*`[]REJECT
+;Steam服务
+
+;Pixiv服务
+custom_proxy_group=Pixiv`select`[]铂金`[]GFW节点`[]自动测试`[]自动测试-阿里`[]阿里巴巴 J`[]负载均衡`[]负载均衡-阿里`[]故障切换`[]故障切换-阿里`[]DIRECT`[]REJECT`.*
+;Pixiv服务
+
+;广告拦截
+custom_proxy_group=广告拦截`select`[]REJECT`[]铂金`[]阿里巴巴 J`[]DIRECT
+;广告拦截
+
+;自动测试(调用型)
+custom_proxy_group=自动测试`url-test`.*`http://www.gstatic.com/generate_204`300
+custom_proxy_group=自动测试-阿里`url-test`^🇺🇸 美国(A|B)$`http://www.gstatic.com/generate_204`300
+;自动测试(调用型)
+
+;负载均衡(调用型)
+custom_proxy_group=负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`300
+custom_proxy_group=负载均衡-阿里`load-balance`^🇺🇸 美国(A|B)$`http://www.gstatic.com/generate_204`300
+;负载均衡(调用型)
+
+;故障切换(调用型)
+custom_proxy_group=故障切换`fallback`.*`http://www.gstatic.com/generate_204`300
+custom_proxy_group=故障切换-阿里`fallback`^🇺🇸 美国(A|B)$`http://www.gstatic.com/generate_204`300
+;故障切换(调用型)
+
+;地区分组(调用型)
+; custom_proxy_group=香港节点`url-test`(香港|港|HK)`http://www.gstatic.com/generate_204`300
+; custom_proxy_group=台湾节点`url-test`(台湾|台|新北|彰化|TW)`http://www.gstatic.com/generate_204`300
+; custom_proxy_group=狮城节点`url-test`(新加坡|坡|狮城|SG)`http://www.gstatic.com/generate_204`300
+; custom_proxy_group=日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP)`http://www.gstatic.com/generate_204`300
+; custom_proxy_group=美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US)`http://www.gstatic.com/generate_204`300
+;地区分组(调用型)
+
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
+
+;finally

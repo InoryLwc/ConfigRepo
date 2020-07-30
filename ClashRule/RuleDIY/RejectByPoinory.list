@@ -10,3 +10,12 @@ DOMAIN-SUFFIX,*.pornhub.com
 # Pornhub
 USER-AGENT,hanime.*
 DOMAIN-SUFFIX,hanime.tv
+
+DOMAIN-SUFFIX,ztxdjj.github.io
+DOMAIN,cangku.ml
+DOMAIN-SUFFIX,cangku.ml
+DOMAIN,cloud.acgc.win
+DOMAIN-SUFFIX,cloud.acgc.win
+DOMAIN,drive.sakurasora.workers.dev
+DOMAIN,ecchi.iwara.tv
+DOMAIN-SUFFIX,ecchi.iwara.tv

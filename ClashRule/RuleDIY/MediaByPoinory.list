@@ -1,7 +1,6 @@
 # 内容：自定义的一下国外媒体列表
 # 时间：2020-04-16
 
-# hanime
-DOMAIN-SUFFIX,hanime.tv
-DOMAIN-SUFFIX,i1.wp.com
-DOMAIN-SUFFIX,highwinds-cdn.com
+
+DOMAIN,iwara.tv
+DOMAIN-SUFFIX,iwara.tv

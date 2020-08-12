@@ -1,5 +1,5 @@
 # 内容：一下自定义的直连列表
-# 时间：2020-04-16
+# 时间：2020-08-12
 
 # Pornhub
 USER-AGENT,pornhub.*
@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,cn.pornhub.com
 DOMAIN-SUFFIX,*.pornhub.com
 
-# Pornhub
+# hanime
 USER-AGENT,hanime.*
 DOMAIN-SUFFIX,hanime.tv
 
@@ -18,4 +18,13 @@ DOMAIN,cloud.acgc.win
 DOMAIN-SUFFIX,cloud.acgc.win
 DOMAIN,drive.sakurasora.workers.dev
 DOMAIN,ecchi.iwara.tv
-DOMAIN-SUFFIX,ecchi.iwara.tv
+DOMAIN-SUFFIX,ecchi.iwar
+
+# 2020/08/12
+DOMAIN,hentaihaven.xxx
+DOMAIN-SUFFIX,hentaihaven.xxx
+DOMAIN,hentaihaven.red
+DOMAIN-SUFFIX,hentaihaven.red
+DOMAIN,hentaidude.com
+DOMAIN-SUFFIX,hentaidude.com
+DOMAIN-KEYWORD,hentai

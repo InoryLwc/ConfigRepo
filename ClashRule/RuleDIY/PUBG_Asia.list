@@ -1,4 +1,5 @@
-#PUBG Asia & Southeast Asia,绝地求生亚服&东南亚服,0,0,1,0,1,0,By-normanbb & Poinory
+# PUBG Asia & Southeast Asia,绝地求生亚服&东南亚服,0,0,1,0,1,0,By-normanbb & Poinory
+# https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/PUBG-Asia%26-Southeast-Asia.rules
 IP-CIDR,1.255.48.0/20,no-resolve
 IP-CIDR,1.255.50.0/23,no-resolve
 IP-CIDR,1.255.54.0/23,no-resolve

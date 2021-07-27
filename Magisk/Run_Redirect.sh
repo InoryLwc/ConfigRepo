@@ -20,7 +20,7 @@ MODDIR="$(dirname $(readlink -f "$0"))"
 MyPrintt() { [[ "$MODDIR" == "$Absolute_Path" ]] && echo "$@" > $DirectionalPath/$Version.txt ; }
 MyPrint() { [[ "$MODDIR" == "$Absolute_Path" ]] && echo "$@" >> $DirectionalPath/$Version.txt || echo "$@" ; }
 
-DirectionalPath="/storage/emulated/0/$path/第三方应用下载目录/-定向记录与配置"
+DirectionalPath="/storage/emulated/0/$path/Center/-定向记录与配置"
 [[ ! -d $DirectionalPath ]] && mkdir -p $DirectionalPath
 [[ ! -f $DirectionalPath/-定向黑名单.conf ]] && { echo '# 把不需要定向的文件夹名称填写进来（一行一个）
 
@@ -73,8 +73,8 @@ Download() {
 	local a="/data/media/0/$2"
 	local aa="/data/media/0/Android/data/$2"
 	local aaa="$2"
-	local b="/data/media/0/$path/第三方应用下载目录/$1"
-	local c="/storage/emulated/0/$path/第三方应用下载目录/$1"
+	local b="/data/media/0/$path/Center/$1"
+	local c="/storage/emulated/0/$path/Center/$1"
 
 	UMOUNT() {
 		umount $a >/dev/null 2>&1
@@ -192,13 +192,11 @@ Music() {
 	fi
 }
 
-# 音乐类(含存储空间隔离后目录)
+# 正常默认下载目录，单文件夹
+Download '微信' 'Android/data/com.tencent.mm/MicroMsg/Download'
+
+# 音乐类，双文件夹
 Music "网易云音乐" "歌曲" "netease/cloudmusic/Music"
-Music "网易云音乐" "歌曲" "com.netease.cloudmusic/sdcard/netease/cloudmusic/Music"
-Music "网易云音乐" "歌曲" "com.netease.cloudmusic/cache/sdcard/netease/cloudmusic/Music"
-Music "网易云音乐" "MV" "netease/cloudmusic/MV"
-Music "网易云音乐" "MV" "com.netease.cloudmusic/sdcard/netease/cloudmusic/MV"
-Music "网易云音乐" "MV" "com.netease.cloudmusic/cache/sdcard/netease/cloudmusic/MV"
 
 yywjj="/data/media/0/$path/Center"
 yywjj_a="/storage/emulated/0/$path/Center"
@@ -216,8 +214,8 @@ if [[ -d $yywjj ]]; then
 	done
 fi
 
-wjj="/data/media/0/$path/第三方应用下载目录/*
-/storage/emulated/0/$path/第三方应用下载目录/*"
+wjj="/data/media/0/$path/Center/*
+/storage/emulated/0/$path/Center/*"
 
 for i in `ls -d $wjj`; do
 	kwjj=$i

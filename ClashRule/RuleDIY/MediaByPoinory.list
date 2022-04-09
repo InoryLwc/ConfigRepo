@@ -1,6 +1,18 @@
 # 内容：自定义的一下国外媒体列表
-# 时间：2020-04-16
+# 时间：2022-04-09
 
 
+IP-CIDR,68.183.234.72/32
+IP-CIDR,104.20.181.50/32
+DOMAIN,expanda.org
+DOMAIN-SUFFIX,expanda.org
+DOMAIN,e-hentai.org
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN,exhentai.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN,hanime.tv
+DOMAIN-SUFFIX,hanime.tv
 DOMAIN,iwara.tv
 DOMAIN-SUFFIX,iwara.tv
+DOMAIN,hanime1.me
+DOMAIN-SUFFIX,hanime1.me

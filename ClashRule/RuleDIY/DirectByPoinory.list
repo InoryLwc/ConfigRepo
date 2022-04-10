@@ -1,14 +1,22 @@
-# 内容：一下自定义的直连列表
-# 时间：2022-04-09
+# 内容：自定义的直连列表，优先放在 Clash 前面
+# 时间：2022-04-10
 
 
+# Start: bing
 DOMAIN,bing.com
 DOMAIN-SUFFIX,bing.com
+# End: bing
+
+# Start: age
 DOMAIN,agemys.com
 DOMAIN-SUFFIX,agemys.com
+# End: age
+
+# Start: gimy.app
 DOMAIN,gimy.app
 DOMAIN-SUFFIX,gimy.app
 DOMAIN,gimy.cm
 DOMAIN-SUFFIX,gimy.cm
 DOMAIN-KEYWORD,gimy.app
 DOMAIN-KEYWORD,gimy.cm
+# End: gimy.app

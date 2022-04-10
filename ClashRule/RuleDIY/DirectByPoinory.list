@@ -15,19 +15,33 @@ DOMAIN-KEYWORD,gimy.app
 DOMAIN-KEYWORD,gimytv.app
 DOMAIN-KEYWORD,gimy.cm
 # 各种傻逼云
-DOMAIN-SUFFIX,malleter.com  # 快播雲
-DOMAIN-SUFFIX,dious.cc  # 天空雲
-DOMAIN-SUFFIX,yle888.vip # 樂視雲
-DOMAIN-SUFFIX,wolongzywcdn.com  # 風暴雲
-DOMAIN-SUFFIX,cibntv.net  # 優酷雲ᴴᴰ
-DOMAIN-SUFFIX,monidai.com  # 噴射雲
-DOMAIN-SUFFIX,789zy.cc  # 順暢雲
-DOMAIN-SUFFIX,ukubf3.com  # 流暢雲
-DOMAIN-SUFFIX,jjyl12349.com  # 星球雲
-DOMAIN-SUFFIX,sszyplay.com  # 神速雲
+# 快播雲
+DOMAIN-SUFFIX,malleter.com
+# 天空雲
+DOMAIN-SUFFIX,dious.cc
+# 樂視雲
+DOMAIN-SUFFIX,yle888.vip
+# 風暴雲
+DOMAIN-SUFFIX,wolongzywcdn.com
+# 優酷雲ᴴᴰ
+DOMAIN-SUFFIX,cibntv.net
+# 噴射雲
+DOMAIN-SUFFIX,monidai.com
+# 順暢雲
+DOMAIN-SUFFIX,789zy.cc
+# 流暢雲
+DOMAIN-SUFFIX,ukubf3.com
+# 星球雲
+DOMAIN-SUFFIX,jjyl12349.com
+# 神速雲
+DOMAIN-SUFFIX,sszyplay.com
 # CN
-# DOMAIN-SUFFIX,sxmzwl.com # 光速雲
-# DOMAIN-SUFFIX,bytetos.com  # 高清雲ᴴᴰ
-# DOMAIN-SUFFIX,qq.com  # 超清雲ᴴᴰ
-# DOMAIN-SUFFIX,alicdn.com # 阿里雲
+# 光速雲
+# DOMAIN-SUFFIX,sxmzwl.com
+# 高清雲ᴴᴰ
+# DOMAIN-SUFFIX,bytetos.com
+# 超清雲ᴴᴰ
+# DOMAIN-SUFFIX,qq.com
+# 阿里雲
+# DOMAIN-SUFFIX,alicdn.com
 # End: gimy.app

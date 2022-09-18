@@ -1,3 +1,3 @@
 proxies:
-  - {name: 🎶 本机解锁网易云, server: 127.0.0.1, port: 5200, type: http}
+  - {name: 🎶 本机解锁网易云, server: 0.0.0.0, port: 5200, type: http}
   - {name: 🎶 服务器解锁网易云, server: op, port: 5200, type: http}

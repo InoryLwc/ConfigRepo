@@ -1,2 +1,2 @@
 proxies:
-  - {name: 路由器解锁网易云, server: op, port: 5200, type: http}
+  - {name: 🎶 路由器解锁网易云, server: op, port: 5200, type: http}

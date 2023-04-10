@@ -2,8 +2,8 @@
 # 时间：2022-04-09
 
 
-IP-CIDR,68.183.234.72/32
-IP-CIDR,104.20.181.50/32
+IP-CIDR,68.183.234.72/32,no-resolve
+IP-CIDR,104.20.181.50/32,no-resolve
 DOMAIN,expanda.org
 DOMAIN-SUFFIX,expanda.org
 DOMAIN,e-hentai.org

@@ -1,4 +1,5 @@
 proxies:
-  - {name: 🎶 本机解锁网易云, server: 0.0.0.0, port: 5200, type: http}
+  - {name: 🎶 本地解锁网易云, server: 0.0.0.0, port: 5200, type: http}
   - {name: 🎶 服务器解锁网易云, server: op, port: 5200, type: http}
-  - {name: 🎶 IP解锁网易云, server: 10.0.0.1, port: 5200, type: http}
+  - {name: 🎶 内网http解锁网易云, server: 10.0.0.8, port: 5512, type: http}
+  - {name: 🎶 内网https解锁网易云, server: 10.0.0.8, port: 5513, type: http, tls: true, skip-cert-verify: true}

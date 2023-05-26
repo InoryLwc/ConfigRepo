@@ -22,3 +22,10 @@ DOMAIN-SUFFIX,hanime1.me
 
 DOMAIN,rule34video.com
 DOMAIN-SUFFIX,rule34video.com
+
+# pikpak 走代理
+
+DOMAIN-KEYWORD,mypikpak
+DOMAIN-SUFFIX,pikpak.com
+DOMAIN-SUFFIX,pikpak.net
+DOMAIN-SUFFIX,pikpak.me

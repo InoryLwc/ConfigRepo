@@ -11,10 +11,3 @@ DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,doh.rixcloud.dev
 DOMAIN-SUFFIX,doh.dns.sb
-
-# pikpak 走代理
-
-DOMAIN-KEYWORD,mypikpak
-DOMAIN-SUFFIX,pikpak.com
-DOMAIN-SUFFIX,pikpak.net
-DOMAIN-SUFFIX,pikpak.me

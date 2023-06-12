@@ -3,7 +3,7 @@
 
 
 # Start: bing
-# DOMAIN-SUFFIX,cn.bing.com
+DOMAIN-SUFFIX,cn.bing.com
 # End: bing
 
 # Start: age

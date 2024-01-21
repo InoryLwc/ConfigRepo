@@ -1,3 +1,4 @@
 # 个人网站：poinory.eu.org
 DOMAIN-SUFFIX,poinory.eu.org
+IP-CIDR,23.105.200.195/32,no-resolve
 DOMAIN-SUFFIX,sakunory.eu.org

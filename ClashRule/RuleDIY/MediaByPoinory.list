@@ -12,7 +12,9 @@ DOMAIN,exhentai.org
 DOMAIN-SUFFIX,exhentai.org
 
 DOMAIN,hanime.tv
+DOMAIN,hembed.com
 DOMAIN-SUFFIX,hanime.tv
+DOMAIN-SUFFIX,hembed.com
 
 DOMAIN,iwara.tv
 DOMAIN-SUFFIX,iwara.tv
@@ -31,3 +33,4 @@ DOMAIN-KEYWORD,mypikpak
 DOMAIN-SUFFIX,pikpak.com
 DOMAIN-SUFFIX,pikpak.net
 DOMAIN-SUFFIX,pikpak.me
+
